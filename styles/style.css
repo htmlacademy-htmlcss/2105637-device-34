@@ -1,0 +1,157 @@
+body {
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+
+}
+
+
+/*800 raleway*/
+@font-face{
+  font-family: "Raleway", sans-serif;
+  src:url(fonts/raleway/raleway-800.woff2) format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Rubik", sans-serif;
+  src:url(fonts/rubik/rubik-400.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Rubik", sans-serif;
+  src:url(fonts/rubik/rubik-700.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+h2{
+  font-size:18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 21.13px;
+  letter-spacing: 20%;
+  }
+
+
+  h3{
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    }
+
+
+.visually-hidden {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-footer {
+    width: 1440px; 
+    height: 321px;
+    background: #444444;
+}
+
+.social {
+width: 40px; 
+height: 40px;
+background: #FFFFFF;
+border-radius: 50%;
+opacity: 50%;
+}
+
+.category-item {
+  display:flex;
+  weight:160px;
+  height:253px;
+}
+
+#square{
+  weight: 160px;
+  height: 160px;
+  background: #FFE17F;
+}
+
+.item-1{
+  weight:97px;
+  height:55px;
+  position: center;
+}
+
+
+
+.main-menu{
+  display: flex;
+}
+
+
+.button-main{
+  font-size:18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 21.13px;
+  letter-spacing: 20%;
+}
+
+.button-main-active{
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 21.13px;
+  letter-spacing: 20%;
+  text-align: center;
+  color: #FFE17F;
+  letter-spacing: 0.2em;
+text-transform: uppercase;
+background-color: black;
+
+}
+
+.delivery-banner{
+  width: 1160px;
+  height: 100px;
+  display: flex;
+  background-color: #DCDCDC;
+}
+
+.description-card-01{
+  display: flex;
+}
+.character-1{
+font-family: "Rubik", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 30px;
+}
+
+.character-2{
+  font-family: "Rubik", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #444444;
+
+}
