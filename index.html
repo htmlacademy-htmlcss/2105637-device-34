@@ -5,56 +5,54 @@
     <title>HTML Academy: Девайс</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
+
+    <meta name = "description" content = "Учебный проект Device от HTML Academy" >
+    <meta name = "keywords" content = "HTML, Верстка сайтов, CSS"> 
+    <meta name = "author" content ="Margo Bayus">
   </head>
+
   <body>
     <header class="page-header">
+     
       
-      <nav class="navigation-logo">
-        
-        <a href="index.html"><img src="Images/logo-header.svg" alt="Логотип Device"></a>
-        </nav>
-        <nav class="navigation-list">
+      <a href="index.html"><img src="images/logo-header.svg" class="main-logo" alt="Логотип Device"></a>
+     
+
+        <section class="navigation-list">
           <form>
-            <input class="search" type="search" name="q" placeholder="Текст поиска">
-            <input class="search-submit" type="submit" value="Найти">
+            <input class="search" type="search" name="search-item" img src="images/search.svg" placeholder="Текст поиска">
+            <button class="search" type="button">Найти</button>
           </form>
 
           
-            <div class="sign-in">  
-              <a class="navigation-link" href="#">Войти</a>
-            </div> 
-            
-          <div class="compare">
-              <a class="navigation-link" href="#">Сравнить</a>
+            <a class="sign-in" href="#"><img src="images/icons-in.svg" class="menu-icon">Войти</a>
+                                
+            <a class="compare" href="#"><img src="images/icons-compare.svg" class="menu-icon">Сравнить</a>
+                           
+            <a class="basket" href="#"><img src="images/icons-cart.svg" class="menu-icon">Корзина</a>
+             
+            </section>
+
+          <section class="catalog">
+            <div class="catalog-menu">  
+            <a class="navigation-catalog" href="#">КАТАЛОГ ТОВАРОВ <img src="Images/plus.svg"></a>
             </div>
-            
+          
+          <div class="main-menu">
+           <a class="navigation-menu" href="#">ДОСТАВКА</a>
+           <a class="navigation-menu" href="#">ГАРАНТИЯ</a>
+           <a class="navigation-menu" href="#">КОНТАКТЫ</a>
+           </div>
 
-            <div class="basket">  
-              <a class="navigation-link" href="#">Корзина</a>
-            </div> 
-            
-
-          <ul class="main-menu">
-            <li class="catalog">  
-            <a class="navigation-catalog" href="#">Каталог товаров</a>
-
-          </li> 
-
-            <li class="delivery">  
-            <a class="navigation-menu" href="#">Доставка</a>
-          </li> 
-
-            <li class="garanty">   
-            <a class="navigation-menu" href="#">Гарантия</a>
-          </li>
-
-            <li class="contacts">  
-            <a class="navigation-menu" href="#">Контакты</a>
-          </li> 
-
-          </ul>
+          
         
-        </nav>
+        </section>
+
+        <div class="slider-background">
+          <img src="images/01.svg" class="card-01">
+  
+        </div>
+      
     </header>
 
   <main class="main-index">
@@ -72,19 +70,24 @@
   <button class="slider-button slider-next" type="button"> <img src="Images/Vector-arrow-right.svg">
     <span class="visually-hidden">Следующий товар</span>
       </button>
+   
 
-<h1>Порхает как бабочка, жалит как пчела</h1>
-<p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
+    
+<h1>Порхает как бабочка, <br> жалит как пчела</h1>
+<p>Этот обычный, на первый взгляд, квадрокоптер оснащен <br> мощным лазером, замаскированным под стандартную камеру.
 </p>
   <a class="button-main" href="#">Подробнее</a>
 
-  <div class="description-card-01">
-    
-    <p class="character-1"> 800 м</p>
-    <p class="character-2">Дальность полета</p>
 
-    <p class="character-1"> 500 м</p>
-    <p class="character-2">Радиус поражения</p>
+  <div class="description-card-01">
+
+    <dl>
+    <dt class="characteristics-01">800 м</dt>
+    <dd class="characteristics-02">Дальность полета</dd>
+
+    <dt class="characteristics-01">500 м</dt>
+    <dd class="characteristics-02">Радиус поражения</dd>
+    </dl>
 
   </div>
 
@@ -98,7 +101,7 @@
 
       <div class="category-item">
 
-    <div id="square"> <img src="Images/icon-1.svg" class="item-1">
+    <div id="square"> <img src="images/icon-1.svg" class="item-1">
       <H3><a href="#">Виртуальная реальность</a> </H3>  
     </div> 
     
@@ -130,7 +133,7 @@
 
 
 
-<section class="DGK">
+<section class="delivery-garanty-credit">
 
 <div class="menu-sidebar-delivery">
   <a class="button-main-active" href="#">Доставка</a>
@@ -143,7 +146,7 @@
   <p>Мы с удовольствием доставим ваш товар прямо
   к вашему подъезду совершенно бесплатно! Ведь
   мы неплохо заработаем, поднимая его на ваш этаж.</p>
-<img src="Images/delivery.svg" width="136px" height="164px" alt="Доставка">
+<img src="images/delivery.svg" width="136px" height="164px" alt="Доставка">
 
 </div>
 
